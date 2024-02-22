@@ -1,30 +1,29 @@
 <!-- HTML tags: <p> = paragraph, <div> = divider, <a> = anchor (links), <img> = images. -->
 <!-- HTML attributes: id = identifier, class = references CSS code to apply to that tag -->
 <!-- CSS properties: these contain the visual styles and target an HTML attribute like ID or class -->
-<div id="heading"><!-- #1 -->
-    <p id="uppercase"><!-- #2 -->
-    </p>
+<div id="heading">
+  <!-- #1 -->
+  <p id="uppercase"><!-- #2 --></p>
 </div>
 
 <style>
-    /* #3, #4 s*/	
-    /* the # before targets the ID attribute */
-    #heading {
-        text-transform: uppercase;
-    }
-    /* END OF ASSIGNMENT */
+  /* #3, #4 s*/
+  /* the # before targets the ID attribute */
+  #uppercase {
+    text-transform: uppercase;
+  }
+  /* END OF ASSIGNMENT */
 
-    /* This is just info */
-    /* As long as each CSS selector "#heading" is unique to the stylesheet, 
+  /* This is just info */
+  /* As long as each CSS selector "#heading" is unique to the stylesheet, 
     you can target whatever amount of ID's or classes */
-    #heading2 {
-        color: black;
-        font-size: 13px;
-    }
-    
-    /* the period before targets the CLASS attribute. It does the same thing as the ID target */
-    .heading {
-        text-transform: uppercase;
-    }
+  #heading2 {
+    color: black;
+    font-size: 13px;
+  }
 
+  /* the period before targets the CLASS attribute. It does the same thing as the ID target */
+  .heading {
+    text-transform: uppercase;
+  }
 </style>
